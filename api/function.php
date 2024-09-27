@@ -1,7 +1,7 @@
 <?php 
 
 
-$conn = mysqli_connect("127.0.0.1", "root", "", "phpmyadmin", "3306"); 
+$conn = mysqli_connect("localhost", "root", "", "phpmyadmin", "3306"); 
 
 
 function  register($data) {
